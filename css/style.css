@@ -349,6 +349,7 @@ body {
 
 .news__left-text {
   font-size: 18px;
+  line-height: 160%;
   opacity: 0.6;
   margin-bottom: 10px;
 }
@@ -392,3 +393,15 @@ body {
   opacity: 0.8;
   font-weight: 20px;
 }
+
+/* footer */
+/* 
+.footer {
+  background-color: rgba(38, 148, 153, 0.04);
+  height: 348px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+} */
