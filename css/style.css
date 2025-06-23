@@ -433,3 +433,50 @@ body {
   justify-content: space-between;
   width: 161px;
 }
+
+.footer__list {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__list li {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.06;
+}
+
+.footer__subscribe-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.06;
+  margin-bottom: 42px;
+}
+
+.input-email {
+  width: 195px;
+  height: 44px;
+  color: #000000;
+  padding-left: 20px;
+  margin-right: 35px;
+  border-radius: 5px;
+  border: 1px solid rgb(230, 227, 227);
+}
+
+.footer__btn {
+  width: 103px;
+  height: 44px;
+  color: white;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer__btn:hover {
+  background-color: rgb(213, 105, 98);
+}
+
+
